@@ -37,7 +37,7 @@ class Application
       #         # binding.pry # @@items == ["Figs", "Oranges"], item == "Figs", @@cart == ["Figs"]
         resp.write "added #{item}"
       else
-        return "Couldn't find #{item}"
+        resp.write "Couldn't find #{item}"
       end
         # resp.write handle_cart(item)
 
